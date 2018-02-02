@@ -49,6 +49,25 @@ Thank you all for the efforts! If you have new implementation and want to share 
 - `cd testing/python`
 - `ipython notebook`
 - Open `demo.ipynb` and execute the code
+```
+Alternative for experienced Python users: Installing Jupyter with pip
+Important
+
+Jupyter installation requires Python 3.3 or greater, or Python 2.7. IPython 1.x, which included the parts that later became Jupyter, was the last version to support Python 3.2 and 2.6.
+
+As an existing Python user, you may wish to install Jupyter using Python’s package manager, pip, instead of Anaconda.
+
+First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
+
+pip3 install --upgrade pip
+Then install the Jupyter Notebook using:
+
+pip3 install jupyter
+(Use pip if using legacy Python 2.)
+
+Congratulations. You have installed Jupyter Notebook. See Running the Notebook for more details.
+https://jupyter.readthedocs.io/en/latest/install.html
+```
 
 ## Training
 
